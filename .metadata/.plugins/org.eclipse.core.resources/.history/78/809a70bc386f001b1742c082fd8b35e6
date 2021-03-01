@@ -1,0 +1,9 @@
+package ReporterClass;
+
+import org.testng.annotations.Test;
+
+public class ReportLog {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,19 @@
+package Arraylist;
+import java.util.ArrayList;
+
+public class Arraylisttest {
+
+	public static void main(String[] args) 
+	{
+		
+		ArrayList<String> book = new ArrayList<String>();
+		book.add("Harry Poter 1");
+		book.add("Harry Poter 2");
+		book.add("Harry Poter 3");
+		book.add("Harry Poter 4");
+		
+		System.out.print(book);
+
+	}
+
+}

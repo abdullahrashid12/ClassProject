@@ -1,0 +1,11 @@
+package Arraylist;
+
+public class Linklisttest {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

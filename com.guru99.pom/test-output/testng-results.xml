@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20936" started-at="2021-02-27T04:04:16Z" finished-at="2021-02-27T04:04:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20936" started-at="2021-02-27T04:04:16Z" finished-at="2021-02-27T04:04:37Z">
+      <class name="com.guru99.test.LoginTest">
+        <test-method status="PASS" signature="openSite()[pri:0, instance:com.guru99.test.LoginTest@4883b407]" name="openSite" is-config="true" duration-ms="18324" started-at="2021-02-26T23:04:16Z" finished-at="2021-02-26T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method status="PASS" signature="logTest()[pri:0, instance:com.guru99.test.LoginTest@4883b407]" name="logTest" duration-ms="2560" started-at="2021-02-26T23:04:34Z" finished-at="2021-02-26T23:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTest -->
+      </class> <!-- com.guru99.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

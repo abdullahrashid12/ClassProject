@@ -1,0 +1,9 @@
+package com.Allergan.nj;
+
+import org.testng.annotations.Test;
+
+public class CrossB {
+  @Test
+  public void f() {
+  }
+}

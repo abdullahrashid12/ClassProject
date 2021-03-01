@@ -1,0 +1,15 @@
+package com.Allergan.nj;
+
+import org.openqa.selenium.WebDriver;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	
+		System.setProperty("webdriver.chrome.driver", "/Users/abdullahrashid/Documents/workspace/nj/chromedriver");
+		WebDriver dr= new ChomeDriver();
+		
+
+	}
+
+}

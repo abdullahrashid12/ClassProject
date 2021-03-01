@@ -1,0 +1,27 @@
+package GroupTest;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class DP 
+{
+	@DataProvider (name = "login-test")
+	public Object[][] dpMethod(){
+	return new Object[][] {{"UserNamer"}, {"Password"}};
+	}
+	    @Test (dataProvider = "login-test")
+	    public void myTest (String val) {
+	        System.out.println("Passed Parameter Is : " + val);   }
+	  
+	    @DataProvider (name = "signup-test")
+		public Object[][] signUP(){
+		return new Object[][] {{"FirstName"}, {"LastName"},{"Address"},{"Phone"}};
+		}
+	    
+	    @Test(dataProvider="signup-test")
+	    public void regTer(String info){
+	    	System.out.println(info);
+	    }
+	
+	
+}

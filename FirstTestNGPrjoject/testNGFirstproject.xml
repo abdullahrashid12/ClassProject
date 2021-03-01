@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="First Test">
+  <test name="Basic Test">
+    <classes>
+       <class name="TestNG.Allmethoda" />
+    </classes>
+  </test>
+  
+   <test name="Basic Test 2">
+    <classes>
+       <class name="Demo.DemoTest" />
+    </classes>
+  </test>
+
+  <test name="Basic Test 3">
+    <classes>
+       <class name="TestNG.FirstTestNGClass" />
+    </classes>
+  </test>
+  
+</suite>

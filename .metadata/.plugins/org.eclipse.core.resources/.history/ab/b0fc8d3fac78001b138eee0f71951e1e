@@ -1,0 +1,9 @@
+package com.guru99.pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage 
+{
+	WebDriver driver;
+
+}
